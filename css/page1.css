@@ -1,0 +1,76 @@
+.caja{
+    background-color: red;
+    height: 500px;
+    /*font-size: 50px;
+    text-align: center;*/
+}
+
+.cajaheader{
+    background-color:greenyellow;
+}
+@media (max-width: 768px ){
+
+    .cajaheader{
+        background-color: aqua;
+    }
+}
+@media (max-width: 576px ){
+
+    .cajaheader{
+        background-color: salmon;
+        text-align: center;
+    }
+}
+
+.sizenum1{
+    font-size: 80px;
+   text-align: center;
+}
+@media(max-width:768px){
+    .sizenum1{
+        text-align: left;
+    }
+}
+@media (max-width: 576px ){
+
+    .sizenum1{
+        text-align: left;
+    }
+}
+
+.sizenum2{
+    font-size: 80px;
+    text-align: center;
+}
+@media(max-width:768px){
+    .sizenum2{
+        text-align: right;
+    }
+}
+
+.sizenum3{
+    font-size: 80px;
+   text-align: center;
+}
+@media (max-width: 576px ){
+
+    .sizenum3{
+        text-align: right;
+    }
+}
+.foot1{
+    text-align: right;
+}
+@media(max-width:768px){
+    .foot1{
+        text-align: center;
+    }
+}
+.foot2{
+    text-align: left;
+}
+@media(max-width:768px){
+    .foot2{
+        text-align: center;
+    }
+}

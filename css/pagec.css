@@ -1,0 +1,22 @@
+.btn {
+    padding: 5px;
+    width: calc(100% - 10px);
+}
+
+
+
+button img{
+    width: 25px;
+    height: auto;
+}
+
+.backc{
+    background-color: #262525;
+    height: 700px;
+}
+@media(max-width: 576px){
+    .backc{
+        background-color: #262525;
+        height: 800px;
+    } 
+}

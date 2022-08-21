@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/pagemain.css">
+    <link rel="stylesheet" href="./css/pageb.css">
+    <title>Trabajo Practico 03</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MENU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Page a</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pageb.html">Page b</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagec.html">Page c</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page1.html" target="_blank">Page 1</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 d-none d-md-block ">
+                    <p class="text-center fw-bold bg-info p-2 mt-2">Convertidor de divisas</p>
+                    <table class="table ">
+
+                        <thead class="table-primary">
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">ARS</th>
+                                <th scope="col">JPY</th>
+                                <th scope="col">USD</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-danger">
+                                <th scope="row">1 ARS Inverse</th>
+                                <td>6487725</td>
+                                <td>1089079</td>
+                                <td>1000000</td>
+                            </tr>
+                            <tr class="table-success">
+                                <th scope="row">1 JPY Inverse</th>
+                                <td>0015414</td>
+                                <td>0009182</td>
+                                <td>1000000</td>
+                            </tr>
+                            <tr class="table-secondary">
+                                <th scope="row">1 USD Inverse</th>
+                                <td>7052637</td>
+                                <td>1183910</td>
+                                <td>1087074</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-12 backg">
+                    <form class="mt-2 mb-2">
+                        <div class="mb-3 ">
+                            <label for="formGroupExampleInput" class="form-label">Cantidad</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="cantidad">
+                        </div>
+                        <div>
+                            <label for="formGroupExampleInput" class="form-label">De</label>
+                            <select class="form-select" aria-label="Default select example">
+
+                                <option selected>USD Dólares EE.UU</option>
+                                <option value="1">ARS Pesos Argentinos</option>
+                                <option value="2">JPY Yen Japoneses</option>
+
+                            </select>
+                        </div>
+                        <div>
+                            <label for="formGroupExampleInput" class="form-label">A</label>
+                            <select class="form-select" aria-label="Default select example">
+
+                                <option selected>ARS Pesos Argentinos </option>
+                                <option value="1">USD Dólares EE.UU</option>
+                                <option value="2">JPY Yen Japoneses</option>
+
+                            </select>
+                        </div>
+                        <div class="mb-3 py-3">
+
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="" disabled>
+                        </div>
+
+                        <div class="d-grid gap-2">
+
+                            <button class="btn btn-warning" type="submit">Convertir</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
